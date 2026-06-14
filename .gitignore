@@ -1,0 +1,37 @@
+# ---- Large data (NEVER commit: the ~70 GB source file) ----
+data/
+*.json.gz
+git-archive-*.json
+
+# ---- Generated columnar output (Part B) — regenerable, can be GBs ----
+*.parquet
+*.parquet/
+events.parquet/
+
+# ---- Spark / RumbleDB local artifacts ----
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+_SUCCESS
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- Scratch / logs (my helper runners, Spark run logs) ----
+*_run.log
+_run_*.py
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+
+# NOTE: the deliverable PNGs (top_users.png, top_repos.png, hourly_pattern.png,
+# dow_pattern.png) and the notebooks/README are intentionally NOT ignored.
