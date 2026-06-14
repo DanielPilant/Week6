@@ -4,8 +4,8 @@
 
 | Name | ID |
 |------|----|
-| <!-- Daniel Palient --> | <!-- 214631426 --> |
-| <!-- Elyassaf Okanin --> | <!-- 319028064 --> |
+|  Daniel Palient  |  214631426  |
+|  Elyassaf Okanin |  319028064  |
 
 ---
 
