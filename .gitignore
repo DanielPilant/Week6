@@ -3,6 +3,8 @@ data/
 *.json.gz
 git-archive-*.json
 
+week_7_up
+
 # ---- Generated columnar output (Part B) — regenerable, can be GBs ----
 *.parquet
 *.parquet/
